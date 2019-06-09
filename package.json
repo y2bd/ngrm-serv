@@ -1,0 +1,20 @@
+{
+  "name": "ngrm-serv",
+  "version": "0.1.0",
+  "description": "Server for ngrm.link",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jason Lo",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "nedb": "^1.8.0",
+    "qr-encoder": "^1.1.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
